@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Bai1</title>
+</head>
+<body>
+<script>
+    let arrayScore = [5,5,7,7]
+    let avg = 0;
+    function findAvg(array) {
+        for (let i = 0; i < array.length; i++) {
+            avg += array[i]/array.length;
+        }
+        return avg;
+    }
+    findAvg(arrayScore)
+    console.log(avg)
+</script>
+</body>
+</html>
